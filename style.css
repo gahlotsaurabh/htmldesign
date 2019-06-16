@@ -1,0 +1,160 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:700&display=swap');
+body {
+	overflow-x: hidden;
+	font-family: 'Lato', sans-serif;
+	color: #505962 ;
+}
+#navb {
+	font-weight: 700;
+	font-size: .9rem;
+	letter-spacing: .1rem;
+	background: rgba(0,0,0,0)!important;
+	word-spacing: 5px;
+	/*background: transparent !important;*/
+}
+/*navbar-nav .navbar-light .nav-link {
+	color: white;
+	padding-top: .8rem;
+}*/
+.navbar-light .navbar-nav .nav-link.active,
+.navbar-light .navbar-nav .nav-link:hover {
+	/*color: #1ebba3;*/
+	background: transparent;
+	word-spacing: 5px;
+}
+#homi {
+	background-image: url("img/pich.jpg");
+	background-size: 100%;
+	background-attachment: fixed;
+	height: 100vh;
+	background-size: contain;
+	background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#firstjumbo{
+	background-color: #FFE6D5;
+}
+#secondjumbo{
+	background-color: #fff;
+}
+.card-img-top {
+    height: 70%;
+    object-fit: cover;
+} 
+.image-no-border {
+	border: none !important;
+	border-radius: 0px !important;
+}
+.cardtxt{
+	padding: 25px;
+}
+.how-section1{
+    margin-top:-15%;
+    padding: 10%;
+}
+.how-section1 h4{
+    color: #000000;
+    font-weight: bold;
+    font-size: 30px;
+    padding-left:  30px;
+}
+/*.how-section1 .subheading{
+    color: #3931af;
+    font-size: 20px;
+}*/
+.how-section1 .row
+{
+    margin-top: 10%;
+}
+.how-img 
+{
+    text-align: center;
+}
+.how-img img{
+    height: 100%;
+    width: 100%;
+}
+#text-muted{
+	padding: 30px;
+	font-weight: lighter;
+	/*letter-spacing: 2px;*/
+	word-spacing: 3px;
+	line-height: 1.8;
+	/*font-size: 10px;*/
+}
+#hfor{
+	letter-spacing: 6px;
+	text-align: center;
+}
+#thirdjumbo{
+	background-color: #FFE6D5;
+}
+#thirdjumbo h1{
+	text-align: center;
+	padding-bottom: 50px;
+	word-spacing: 15px;
+	padding: 50px;
+	line-height: .5;
+	letter-spacing: 10px;
+	/*font-weight: 30px;*/
+
+}
+/*.how-section2{
+	text-align: center;
+}*/
+#last{
+	text-align: center;
+	word-spacing: 8px;
+	padding-bottom: 6px;
+	background-image: url(img/pica.jpg);
+	background-size: 100%;
+	height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.form3{
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin: auto;  
+}
+.how-section2 p{
+	font-size: x-small !important;
+	font-weight: 50px;
+}
+#ltext {
+	width: 300px;
+ 	margin: 0 auto;
+}
+#yell{
+	/*line-height: 1;*/
+	padding-bottom: 15px;
+}
+#but{
+	background-color: #F2BD80;
+}
+#name1 {
+	background: transparent;
+
+}
+#InputEmail1{
+	background: transparent;
+}
+#message{
+	background: transparent;
+}
+::placeholder{
+	color: #fff !important;
+	font-weight:20px !important;
+}
+#last i{
+	color: #fff;
+	padding-bottom: 20px;
+}
+#sec2{
+	padding-top:20px;
+}
+#last h1{
+	padding: 30px;
+}
